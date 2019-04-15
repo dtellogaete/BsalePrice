@@ -3,10 +3,10 @@ from time import time
 
 time_ini=time()
 
-barcode='7801430530319'
+barcode='insert barcode here'
 
 url_barcode='https://api.bsale.cl/v1/price_lists/23/details.json?barcode='+barcode
-token= 'c06e1e766d41927c4502702e72061f3e20bec459'
+token= 'insert your token here'
 
 head= {'Content-Type':'application/json','access_token':token}
 
